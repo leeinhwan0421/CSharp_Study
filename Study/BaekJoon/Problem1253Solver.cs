@@ -31,12 +31,11 @@ namespace Study.BaekJoon
             {
                 int sI = 0;
                 int eI = n - 1;
-                int sum = 0;
                 int val = arr[i];
 
                 while (sI != eI)
                 {
-                    sum = arr[sI] + arr[eI];
+                    int sum = arr[sI] + arr[eI];
 
                     if (sum == val)
                     {
@@ -44,6 +43,14 @@ namespace Study.BaekJoon
                         {
                             result++;
                             break;
+                        }
+                        else if (sI == i)
+                        {
+                            sI++;
+                        }
+                        else
+                        {
+                            eI--;
                         }
                     }
                     else if (sum < val)
