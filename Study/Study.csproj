@@ -36,8 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaekJoon\Problem11003Solver.cs" />
+    <Compile Include="BaekJoon\Problem12891Solver.cs" />
     <Compile Include="BaekJoon\Problem1806Solver.cs" />
     <Compile Include="BaekJoon\Problem1644Solver.cs" />
+    <Compile Include="BaekJoon\Problem17298Solver.cs" />
     <Compile Include="BaekJoon\Problem2470Solver.cs" />
     <Compile Include="BaekJoon\Problem3273Solver.cs" />
     <Compile Include="BaekJoon\Problem1253Solver.cs" />
@@ -55,8 +58,6 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Algorithm\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
