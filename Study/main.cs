@@ -8,7 +8,7 @@ using Study.BaekJoon;
 
 namespace Study
 {
-    internal class main
+    internal class Program
     {
         static void Main(string[] args)
         {
