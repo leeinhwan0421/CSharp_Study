@@ -15,7 +15,7 @@ namespace Study
         {
             // 백준 코드에 알맞은 Solve() 함수를 넣으면 됩니다.
 
-            Problem1260Solver.Solve();
+            Problem18111Solver.Solve();
         }
     }
 }

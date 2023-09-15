@@ -5,23 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Problem11286
+namespace Problem11279
 {
     public class Mycompare : IComparer<int>
     {
         public int Compare(int x, int y)
         {
-            int aX = Math.Abs(x);
-            int aY = Math.Abs(y);
-
-            if (aX != aY)
-            {
-                return aX.CompareTo(aY);
-            }
-            else
-            {
-                return x.CompareTo(y);
-            }
+            return y.CompareTo(x);
         }
     }
 
@@ -88,12 +78,12 @@ namespace Problem11286
 
 namespace Study.BaekJoon
 {
-    using Problem11286;
+    using Problem11279;
 
-    // https://www.acmicpc.net/problem/11286
-    // 절대값 힙
+    // https://www.acmicpc.net/problem/11279
+    // 최대 힙
 
-    internal class Problem11286Solver
+    internal class Problem11279Solver
     {
         static public void Solve()
         {
