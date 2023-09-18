@@ -13,7 +13,8 @@ C# 공부 + 백준 문제풀이
 09.12 백준  
 09.13 백준  
 09.14 백준 & Sorting Algorithm  
-09.15 백준 & DFS, BFS
+09.15 백준 & DFS, BFS  
+09.18 백준 & Binary Search
 
 </div>
 </details>
