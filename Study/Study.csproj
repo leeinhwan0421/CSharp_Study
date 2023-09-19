@@ -37,6 +37,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaekJoon\0~10000\Problem1300Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1541Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1744Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1715Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2343Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2393Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11279Solver.cs" />
