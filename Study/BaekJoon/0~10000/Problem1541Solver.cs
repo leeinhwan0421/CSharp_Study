@@ -26,7 +26,7 @@ namespace Study.BaekJoon
             Console.ReadKey();
         }
 
-        static public int Plus(string n)
+        static public int Plus(string n) 
         {
             string[] n_list = n.Split('+');
 
