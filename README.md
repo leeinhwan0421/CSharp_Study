@@ -15,7 +15,8 @@ C# 공부 + 백준 문제풀이
 09.14 백준 & Sorting Algorithm  
 09.15 백준 & DFS, BFS  
 09.18 백준 & Binary Search  
-09.19 백준 & Greedy Algorithm
+09.19 백준 & Greedy Algorithm  
+09.20 백준 & Number Theory
 
 </div>
 </details>
