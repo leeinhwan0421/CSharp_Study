@@ -17,6 +17,7 @@ C# 공부 + 백준 문제풀이
 09.18 백준 & Binary Search  
 09.19 백준 & Greedy Algorithm  
 09.20 백준 & Number Theory
+09.21 백준
 
 </div>
 </details>
@@ -69,6 +70,15 @@ int main()
 	return 0;
 }
 ```
+
+</div>
+</details>
+
+<details>
+<summary>https://www.acmicpc.net/problem/7576, 토마토, 시간 초과</summary>
+<div markdown="1">
+
+## 풀이 중..
 
 </div>
 </details>
