@@ -47,7 +47,9 @@ namespace Study.BaekJoon
 
             int max = 0;
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= n; 
+                
+                i++)
             {
                 max = Math.Max(max, result[i]);
             }
