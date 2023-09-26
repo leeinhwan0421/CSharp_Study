@@ -1,122 +1,110 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Study.BaekJoon
 {
     // https://www.acmicpc.net/problem/7576
     // 토마토
 
+    // FloodFill로 풀었는데 잘 안되서
+    // BFS 형식으로 코드를 바꿔봤습니다.
+    // 제발돼라
+
     internal class Problem7576Solver
     {
         static int[,] arr;
-
         static int rows;
         static int cols;
-
-        static bool RipeTomato(int row, int col)
-        {
-            arr[row, col] = -1;
-
-            if (FindCanRipe(row + 1, col) ||
-                FindCanRipe(row - 1, col) ||
-                FindCanRipe(row, col + 1) ||
-                FindCanRipe(row, col - 1))
-            {
-                return true;
-            }
-
-            return false;
-        }
-
-        static bool FindCanRipe(int row, int col)
-        {
-            if (row < 0 || col < 0)
-                return false;
-            else if (row >= rows || col >= cols)
-                return false;
-
-            if (arr[row, col] == 0)
-            {
-                arr[row, col] = 1;
-                return true;
-            }
-
-            return false;
-        }
+        static int[] dx = { 1, -1, 0, 0 };
+        static int[] dy = { 0, 0, 1, -1 };
 
         static public void Solve()
         {
-            String[] str = Console.ReadLine().Split(' ');
+            StreamReader sr = new StreamReader(Console.OpenStandardInput());
+            String[] str = sr.ReadLine().Split(' ');
 
             rows = int.Parse(str[0]);
             cols = int.Parse(str[1]);
 
-            arr = new int[rows, cols];
+            arr = new int[cols, rows];
+            Queue<Tuple<int, int>> queue = new Queue<Tuple<int, int>>();
 
             for (int i = 0; i < cols; i++)
             {
-                String[] line = Console.ReadLine().Split(' ');
+                String[] line = sr.ReadLine().Split(' ');
 
                 for (int j = 0; j < rows; j++)
                 {
-                    arr[j, i] = int.Parse(line[j]);
+                    arr[i, j] = int.Parse(line[j]);
+
+                    if (arr[i, j] == 1)
+                    {
+                        queue.Enqueue(new Tuple<int, int>(i, j));
+                    }
                 }
             }
 
-            int result = 0;
-            bool isKey = true;
+            int days = BFS(queue);
 
-            List<KeyValuePair<int, int>> list = new List<KeyValuePair<int, int>>();
-
-            while (isKey)
+            if (CheckAllRipe())
             {
-                isKey = false;
+                Console.Write(days);
+            }
+            else
+            {
+                Console.Write("-1");
+            }
 
-                for (int i = 0; i < cols; i++)
+            Console.ReadKey();
+        }
+
+        static int BFS(Queue<Tuple<int, int>> queue)
+        {
+            int days = -1;
+
+            while (queue.Count > 0)
+            {
+                int size = queue.Count;
+
+                for (int i = 0; i < size; i++)
                 {
-                    for (int j = 0; j < rows; j++)
+                    Tuple<int, int> tomato = queue.Dequeue();
+                    int x = tomato.Item1;
+                    int y = tomato.Item2;
+
+                    for (int j = 0; j < 4; j++)
                     {
-                        if (arr[j, i] == 1)
+                        int nx = x + dx[j];
+                        int ny = y + dy[j];
+
+                        if (nx >= 0 && nx < cols && ny >= 0 && ny < rows && arr[nx, ny] == 0)
                         {
-                            list.Add(new KeyValuePair<int, int>(j, i));
+                            arr[nx, ny] = 1;
+                            queue.Enqueue(new Tuple<int, int>(nx, ny));
                         }
                     }
                 }
 
-                for (int i = 0; i < list.Count; i++)
-                {
-                    int row = list[i].Key;
-                    int col = list[i].Value;
-
-                    if (isKey)
-                        RipeTomato(row, col);
-                    else
-                        isKey = RipeTomato(row, col);
-                }
-
-                if (isKey)
-                    result++;
+                days++;
             }
 
+            return days;
+        }
+
+        static bool CheckAllRipe()
+        {
             for (int i = 0; i < cols; i++)
             {
                 for (int j = 0; j < rows; j++)
                 {
-                    if (arr[j, i] == 0)
+                    if (arr[i, j] == 0)
                     {
-                        Console.WriteLine("-1");
-                        Console.ReadKey();
-                        return;
+                        return false;
                     }
                 }
             }
-
-            Console.WriteLine(result);
-            Console.ReadKey();
+            return true;
         }
     }
 }
