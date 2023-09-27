@@ -18,7 +18,8 @@ C# 공부 + 백준 문제풀이
 09.19 백준 & Greedy Algorithm  
 09.20 백준 & Number Theory  
 09.21 백준  
-09.26 백준 & Tree
+09.26 백준 & Tree  
+09.27 백준 & Graph
 
 </div>
 </details>
