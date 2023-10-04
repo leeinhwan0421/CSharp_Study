@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Study.BaekJoon;
-// using Study.Sorting_algorithm;
+using Study.Sorting_algorithm;
 
 namespace Study
 {
@@ -14,8 +14,10 @@ namespace Study
         static void Main(string[] args)
         {
             // 백준 코드에 알맞은 Solve() 함수를 넣으면 됩니다.
+            Problem14940Solver.Solve();
 
-            Problem1707Solver.Solve();
+            // Sort 집어넣기
+            // Insertion_sort.Sort();
         }
     }
 }

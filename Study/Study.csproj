@@ -47,9 +47,11 @@
     <Compile Include="BaekJoon\0~10000\Problem1744Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1715Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1850Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2251Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2343Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem7576Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2393Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem14940Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11689Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11279Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1927Solver.cs" />
