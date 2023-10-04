@@ -27,7 +27,7 @@ C# 공부 + 백준 문제풀이
 <summary>2023.10</summary>
 <div markdown="1">
 	
-10.04 백준 단계별 풀이
+10.04 백준 복습 ( 노트 정리 )
 
 </div>
 </details>
