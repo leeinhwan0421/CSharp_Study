@@ -21,3 +21,4 @@ C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.csproj.Suggeste
 C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.exe
 C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.pdb
+C:\Users\rltjd\Desktop\git\Study\CSharp_Study\Study\obj\Debug\Study.csproj.SuggestedBindingRedirects.cache
