@@ -28,6 +28,7 @@ C# 공부 + 백준 문제풀이
 <div markdown="1">
 	
 10.04 백준 복습 ( 노트 정리 )
+10.05 Solved.ac Class 3*
 
 </div>
 </details>
