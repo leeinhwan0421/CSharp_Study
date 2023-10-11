@@ -29,7 +29,8 @@ C# 공부 + 백준 문제풀이
 	
 10.04 백준 복습 ( 노트 정리 )  
 10.05 Solved.ac Class 3*  
-10.06 Union, Find
+10.06 Union, Find  
+10.10 topology sort, bitmasking
 
 </div>
 </details>
