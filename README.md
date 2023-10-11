@@ -30,7 +30,8 @@ C# 공부 + 백준 문제풀이
 10.04 백준 복습 ( 노트 정리 )  
 10.05 Solved.ac Class 3*  
 10.06 Union, Find  
-10.10 topology sort, bitmasking
+10.10 topology sort, bitmasking  
+10.11 시리얼 통신, 파일 입출력, 청크 로더
 
 </div>
 </details>
