@@ -34,7 +34,8 @@ C# 공부 + 백준 문제풀이
 10.11 시리얼 통신, 파일 입출력, 청크 로더  
 10.17 위상 정렬 1   
 10.18 위상 정렬 2  
-10.20 Solved.ac Class 4
+10.20 Solved.ac Class 4  
+10.23 Solved.ac Class 4
 
 </div>
 </details>
