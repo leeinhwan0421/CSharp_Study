@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Study.BaekJoon
 {
-    // https://www.acmicpc.net/problem/11003
+    // https://www.acmicpc.net/problem/11004
     // K번째 수
     // Sort 연습으로 사용 가능
 
