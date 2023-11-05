@@ -39,6 +39,14 @@ C# 공부 + 백준 문제풀이
 
 </div>
 </details>
+<details>
+<summary>2023.11</summary>
+<div markdown="1">
+	
+11.01 ~ 11.30 C++ DX12 공부
+
+</div>
+</details>
 
 # ❌ 풀지 못한 문제
 <details>
