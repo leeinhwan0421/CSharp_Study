@@ -9,17 +9,17 @@ C# 공부 + 백준 문제풀이
 <summary>2023.09</summary>
 <div markdown="1">
 	
-09.11 백준  
-09.12 백준  
-09.13 백준  
-09.14 백준 & Sorting Algorithm  
-09.15 백준 & DFS, BFS  
-09.18 백준 & Binary Search  
-09.19 백준 & Greedy Algorithm  
-09.20 백준 & Number Theory  
-09.21 백준  
-09.26 백준 & Tree  
-09.27 백준 & Graph
+- **09.11** 백준  
+- **09.12** 백준  
+- **09.13** 백준  
+- **09.14** 백준 & Sorting Algorithm  
+- **09.15** 백준 & DFS, BFS  
+- **09.18** 백준 & Binary Search  
+- **09.19** 백준 & Greedy Algorithm  
+- **09.20** 백준 & Number Theory  
+- **09.21** 백준  
+- **09.26** 백준 & Tree  
+- **09.27** 백준 & Graph
 
 </div>
 </details>
@@ -27,15 +27,15 @@ C# 공부 + 백준 문제풀이
 <summary>2023.10</summary>
 <div markdown="1">
 	
-10.04 백준 복습 ( 노트 정리 )  
-10.05 Solved.ac Class 3*  
-10.06 Union, Find  
-10.10 topology sort, bitmasking  
-10.11 시리얼 통신, 파일 입출력, 청크 로더  
-10.17 위상 정렬 1   
-10.18 위상 정렬 2  
-10.20 Solved.ac Class 4  
-10.23 Solved.ac Class 4
+- **10.04** 백준 복습 ( 노트 정리 )  
+- **10.05** Solved.ac Class 3*  
+- **10.06** Union, Find  
+- **10.10** topology sort, bitmasking  
+- **10.11** 시리얼 통신, 파일 입출력, 청크 로더  
+- **10.17** 위상 정렬 1   
+- **10.18** 위상 정렬 2  
+- **10.20** Solved.ac Class 4  
+- **10.23** Solved.ac Class 4
 
 </div>
 </details>
@@ -43,7 +43,7 @@ C# 공부 + 백준 문제풀이
 <summary>2023.11</summary>
 <div markdown="1">
 	
-11.01 ~ 11.30 C++ DX12 공부
+- **11.01 ~ 11.30** C++ DX12 공부
 
 </div>
 </details>
@@ -51,9 +51,9 @@ C# 공부 + 백준 문제풀이
 <summary>2023.12</summary>
 <div markdown="1">
 	
-12.01 ~ 12.21 C++ DX12 공부  
-12.05 DP  
-12.21 ~ 01.11 전문산업기능군사교육소집기간
+- **12.01 ~ 12.21** C++ DX12 공부  
+- **12.05** DP  
+- **12.21 ~ 01.11** 전문산업기능군사교육소집기간
 
 </div>
 </details>
