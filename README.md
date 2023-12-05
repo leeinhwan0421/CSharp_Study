@@ -47,6 +47,15 @@ C# 공부 + 백준 문제풀이
 
 </div>
 </details>
+<details>
+<summary>2023.12</summary>
+<div markdown="1">
+	
+12.01 ~ 12.21 C++ DX12 공부  
+12.21 ~ 01.11 전문산업기능군사교육소집기간
+
+</div>
+</details>
 
 # ❌ 풀지 못한 문제
 <details>
