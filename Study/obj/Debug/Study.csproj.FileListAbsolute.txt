@@ -22,3 +22,11 @@ C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.csproj.CoreComp
 C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.exe
 C:\Users\Owner\Desktop\백준\CSharp_Study\Study\obj\Debug\Study.pdb
 C:\Users\rltjd\Desktop\git\Study\CSharp_Study\Study\obj\Debug\Study.csproj.SuggestedBindingRedirects.cache
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\bin\Debug\Study.exe.config
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\bin\Debug\Study.exe
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\bin\Debug\Study.pdb
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\obj\Debug\Study.csproj.AssemblyReference.cache
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\obj\Debug\Study.csproj.SuggestedBindingRedirects.cache
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\obj\Debug\Study.exe
+C:\Users\rltjd\Desktop\git\CSharp_Study\Study\obj\Debug\Study.pdb
