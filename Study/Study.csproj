@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80B4CD0B-76E8-44A9-A501-E3B6407E4E83}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Study</RootNamespace>
+    <AssemblyName>Study</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaekJoon\0~10000\Problem1011Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1149Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1516Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1991Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2156Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2579Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem9465Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem10844Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11053Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11725Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem14889Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem16953Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1629Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2252Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1033Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1074Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1043Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1016Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1300Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1325Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1456Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1541Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1697Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1707Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1747Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1744Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1715Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1850Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1976Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2023Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2630Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2251Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2343Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem9095Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem7576Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2393Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11726Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem14940Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11689Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11279Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1927Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1260Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1167Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1517Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1377Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2178Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2606Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11004Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem13023Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11724Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11286Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11003Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem12891Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1806Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1644Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15666Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15663Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15657Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15654Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15652Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15829Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem18352Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem18111Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem18110Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem17298Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2470Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem3273Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1253Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1980Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2018Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem10986Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11660Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem12789Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem21568Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem24511Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2346Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem29634Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem28279Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem28278Solver.cs" />
+    <Compile Include="main.cs" />
+    <Compile Include="Sorting_algorithm\Merge_sort.cs" />
+    <Compile Include="Sorting_algorithm\Quick_sort.cs" />
+    <Compile Include="Sorting_algorithm\Insertion_sort.cs" />
+    <Compile Include="Sorting_algorithm\Radix_sort.cs" />
+    <Compile Include="Sorting_algorithm\Selection_sort.cs" />
+    <Compile Include="Sorting_algorithm\Bubble_sort.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
