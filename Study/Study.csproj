@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaekJoon\0~10000\Problem1011Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1072Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1149Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1516Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1991Solver.cs" />
@@ -45,6 +46,7 @@
     <Compile Include="BaekJoon\0~10000\Problem2579Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem9465Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem10844Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11051Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem14002Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12015Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11055Solver.cs" />
