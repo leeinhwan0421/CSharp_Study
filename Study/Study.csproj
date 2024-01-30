@@ -41,6 +41,7 @@
     <Compile Include="BaekJoon\0~10000\Problem1149Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1516Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1948Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1916Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1991Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2156Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2565Solver.cs" />
