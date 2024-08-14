@@ -121,6 +121,8 @@
     <Compile Include="BaekJoon\10001~20000\Problem10986Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11660Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12789Solver.cs" />
+    <Compile Include="BaekJoon\30001~40000\Problem31669Solver.cs" />
+    <Compile Include="BaekJoon\30001~40000\Problem31668Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem21568Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem24511Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2346Solver.cs" />
