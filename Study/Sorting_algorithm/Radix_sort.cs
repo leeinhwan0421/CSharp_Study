@@ -41,7 +41,7 @@ namespace Study.Sorting_algorithm
 
         static private void Radix(int[] arr)
         {
-            int[] count = new int[arr.Max()];
+            int[] count = new int[arr.Max() + 1];
 
             for (int i = 0; i < arr.Length; i++)
             {
@@ -52,7 +52,7 @@ namespace Study.Sorting_algorithm
             {
                 if (count[i] != 0)
                 {
-                    Console.Write($"{count[i]} ");
+                    Console.Write($"{i} ");
                 }
             }
         }
