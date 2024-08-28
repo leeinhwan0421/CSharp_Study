@@ -40,6 +40,8 @@
     <Compile Include="BaekJoon\0~10000\Problem1072Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1149Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1516Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2164Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1874Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1948Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1916Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1991Solver.cs" />
@@ -50,6 +52,7 @@
     <Compile Include="BaekJoon\0~10000\Problem9465Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem10844Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11051Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11659Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12865Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem14002Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12015Solver.cs" />
@@ -130,6 +133,7 @@
     <Compile Include="BaekJoon\20001~30000\Problem28279Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem28278Solver.cs" />
     <Compile Include="main.cs" />
+    <Compile Include="Notepad\Notepad.cs" />
     <Compile Include="Sorting_algorithm\Merge_sort.cs" />
     <Compile Include="Sorting_algorithm\Quick_sort.cs" />
     <Compile Include="Sorting_algorithm\Insertion_sort.cs" />
