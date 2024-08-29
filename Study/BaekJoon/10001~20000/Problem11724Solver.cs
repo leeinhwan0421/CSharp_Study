@@ -17,6 +17,9 @@ namespace Study.BaekJoon
 
         static private void DFS(int v)
         {
+            if (visited[v] == true)
+                return;
+
             visited[v] = true;
 
             foreach (var i in nodes[v])
@@ -51,7 +54,7 @@ namespace Study.BaekJoon
 
             int cnt = 0;
 
-            for (int i = 1; i < N; i++)
+            for (int i = 1; i < N + 1; i++)
             {
                 if (visited[i] == false)
                 {

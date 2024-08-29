@@ -36,11 +36,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaekJoon\0~10000\Problem1547Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1011Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1072Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1149Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1427Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1516Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1931Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1920Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2164Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1874Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1948Solver.cs" />
@@ -147,6 +150,8 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Notepad\Notepad.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
