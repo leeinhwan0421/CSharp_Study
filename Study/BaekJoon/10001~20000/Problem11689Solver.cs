@@ -10,6 +10,9 @@ namespace Study.BaekJoon
     // GCD(n, k) = 1
     // 오일러 피 함수 구현 문제**
 
+    // 서로소를 구하는 거다.
+    // 9로 입력하면 1, 2, 4, 5, 7, 8
+
     internal class Problem11689Solver
     {
         static public void Solve()
