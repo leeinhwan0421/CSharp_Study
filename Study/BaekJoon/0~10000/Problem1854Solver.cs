@@ -9,9 +9,7 @@ using System.Threading.Tasks;
     https://www.acmicpc.net/problem/1854
     K번째 최단 경로 찾기
 
-    C#으로 다익스트라를 구현하는 것은 너무나도 힘들고 지치는 일입니다.... 저를 부디 구제해주세요...
-
-    C++로 풀 예정입니다.
+    답은 똑같이 나오는데, 시간 초과와 메모리 초과로 인해 C++로 풀 예정입니다.
  */
 
 namespace Problem_1854
