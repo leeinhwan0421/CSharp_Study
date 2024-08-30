@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 /*
     https://www.acmicpc.net/problem/1854
@@ -74,7 +78,10 @@ namespace Study.BaekJoon
     {
         public static void Solve()
         {
-            string[] inputs = Console.ReadLine().Split(' ');
+            StreamReader sr = new StreamReader(Console.OpenStandardInput());
+            StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
+
+            string[] inputs = sr.ReadLine().Split(' ');
             int n = int.Parse(inputs[0]);
             int m = int.Parse(inputs[1]);
             int k = int.Parse(inputs[2]);
@@ -87,7 +94,7 @@ namespace Study.BaekJoon
 
             for (int i = 0; i < m; i++)
             {
-                inputs = Console.ReadLine().Split(' ');
+                inputs = sr.ReadLine().Split(' ');
                 int a = int.Parse(inputs[0]);
                 int b = int.Parse(inputs[1]);
                 int c = int.Parse(inputs[2]);
@@ -131,13 +138,15 @@ namespace Study.BaekJoon
             {
                 if (dist[i].Count == k)
                 {
-                    Console.WriteLine(dist[i].Max);
+                    sw.Write($"{dist[i].Max}\n");
                 }
                 else
                 {
-                    Console.WriteLine(-1);
+                    sw.Write($"-1\n");
                 }
             }
+
+            sw.Flush();
 
             Console.ReadKey();
         }
