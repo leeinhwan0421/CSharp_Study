@@ -51,6 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaekJoon\0~10000\Problem1264Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1547Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1011Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1072Solver.cs" />
