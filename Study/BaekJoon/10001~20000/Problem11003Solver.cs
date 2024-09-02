@@ -9,11 +9,10 @@ namespace Study.BaekJoon
 {
     // https://www.acmicpc.net/problem/11003
     // 최소값 찾기
-    // 이 방식이 맞는데, 시간초과로 인한 이슈로 문제를 풀 수 없음
 
     internal class Problem11003Solver
     {
-        static List<(int, int)> deque = new List<(int, int)>();
+        static LinkedList<(int, int)> deque = new LinkedList<(int, int)>();
         static StringBuilder sb = new StringBuilder();
 
         static public void Solve()
@@ -21,37 +20,42 @@ namespace Study.BaekJoon
             Console.InputEncoding = Encoding.ASCII;
             Console.OutputEncoding = Encoding.ASCII;
 
-            StreamReader sr = new StreamReader(Console.OpenStandardInput());
-            StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
-
-            string[] inputs = sr.ReadLine().Split(' ');
-
-            int N = int.Parse(inputs[0]);
-            int L = int.Parse(inputs[1]);
-
-            inputs = sr.ReadLine().Split(' ');
-
-            for (int i = 0; i < N; i++)
+            using (BufferedStream bs = new BufferedStream(Console.OpenStandardInput()))
+            using (StreamReader sr = new StreamReader(bs))
+            using (StreamWriter sw = new StreamWriter(Console.OpenStandardOutput()))
             {
-                int nw = int.Parse(inputs[i]);
-                while (deque.Count != 0 && deque[deque.Count - 1].Item1 > nw)
+                string[] inputs = sr.ReadLine().Split(' ');
+
+                int N = int.Parse(inputs[0]);
+                int L = int.Parse(inputs[1]);
+
+                inputs = sr.ReadLine().Split(' ');
+
+                for (int i = 0; i < N; i++)
                 {
-                    deque.RemoveAt(deque.Count - 1);
+                    int nw = int.Parse(inputs[i]);
+
+                    while (deque.Count != 0 && deque.Last.Value.Item1 > nw)
+                    {
+                        deque.RemoveLast();
+                    }
+
+                    // 새 값 추가
+                    deque.AddLast((nw, i));
+
+                    if (deque.First.Value.Item2 <= i - L)
+                    {
+                        deque.RemoveFirst();
+                    }
+
+                    sb.Append($"{deque.First.Value.Item1} ");
                 }
 
-                deque.Add((nw, i));
+                sw.Write(sb.ToString());
+                sw.Flush();
 
-                if (deque[0].Item2 <= i - L)
-                {
-                    deque.RemoveAt(0);
-                }
-
-                sb.Append($"{deque[0].Item1} ");
+                Console.ReadKey();
             }
-
-            sw.Write(sb.ToString());
-            sw.Flush();
-            sr.ReadLine();
         }
     }
 }
