@@ -6,44 +6,26 @@ using System.Threading.Tasks;
 
 namespace Study.Sorting_algorithm
 {
-    /*
-     * 
-     *  [선택 정렬]
-     *  대상에서 가장 크거나 작은 데이터를 찾아가 선택을 반복하면서 정렬하는 방식
-     *  시간 복잡도 O(n^2)
-     * 
-     *  [정렬 과정]
-     *  1. 남은 정렬 부분에서 최소, 최대 값을 찾는다.
-     *  2. 남은 정렬 부분에서 가장 앞에 있는 데이터와 선택된 데이터를 swap 한다.
-     *  3. 가장 앞에 있는 데이터의 위치를 변경해(index++) 남은 정렬 부분을 축소한다.
-     *  4. 전체 데이터 크기만큼 index가 커질 때 까지 반복합니다.
-     *  
-     */
-
-
     internal class Selection_sort
     {
         static public void Sort()
         {
-            int[] arr = { 1, 3, 2, 5, 9, 7, 8, 6, 4 };
+            int n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("정렬 이전 값");
-            for (int i = 0; i < arr.Length; i++)
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++)
             {
-                Console.Write($"{arr[i]} ");
+                arr[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine();
 
             Selection(arr);
 
-            Console.WriteLine("정렬 이후 값");
-            for (int i = 0; i < arr.Length; i++)
+            foreach (int it in arr)
             {
-                Console.Write($"{arr[i]} ");
+                Console.WriteLine(it);
             }
-            Console.WriteLine();
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
 
         static private void Selection(int[] arr)

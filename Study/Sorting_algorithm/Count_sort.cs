@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Study.Sorting_algorithm
 {
-
-    internal class Bubble_sort
+    internal class Count_sort
     {
         static public void Sort()
         {
@@ -19,28 +18,25 @@ namespace Study.Sorting_algorithm
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
-            Bubble(arr);
-
-            foreach (int it in arr)
-            {
-                Console.WriteLine(it);
-            }
+            Count(arr);
 
             Console.ReadLine();
         }
 
-        static private void Bubble(int[] arr)
+        static private void Count(int[] arr)
         {
-            for (int i = 0; i < arr.Length - 1; i++)
+            int[] count = new int[arr.Max() + 1];
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                for (int j = 0; j < arr.Length - 1 - i; j++)
+                count[arr[i]]++;
+            }
+
+            for (int i = 0; i < count.Length; i++)
+            {
+                if (count[i] != 0)
                 {
-                    if (arr[j] > arr[j + 1])
-                    {
-                        int temp = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = temp;
-                    }
+                    Console.Write($"{i}\n");
                 }
             }
         }

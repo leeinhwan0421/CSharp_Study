@@ -13,31 +13,68 @@ namespace Study.BaekJoon
     {
         static string[] inputs;
 
-        static Dictionary<string, int> dict = new Dictionary<string, int>();
-        static int[] parent;
-        static int[] size;
+        static Dictionary<string, string> friends = new Dictionary<string, string>();
+        static Dictionary<string, int> friends_count = new Dictionary<string, int>();
 
         static public void Union(string A, string B)
         {
+            A = Find(A);
+            B = Find(B);
+
+            if (A == B) return;
+
+            friends[B] = A;
+            friends_count[A] += friends_count[B];
 
         }
 
-        static public int Find(int x)
+        static public string Find(string A)
         {
-            if (x == parent[x]) return x;
-            return parent[x] = Find(parent[x]);
+            if (friends[A] == A)
+            {
+                return A;
+            }
+            else
+            {
+                return friends[A] = Find(friends[A]);
+            }
         }
 
         static public void Solve()
         {
-            int F = int.Parse(Console.ReadLine());
+            int T = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < F; i++)
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < T; i++)
             {
-                inputs = Console.ReadLine().Split(' ');
+                int F = int.Parse(Console.ReadLine());
 
+                friends.Clear();
+                friends_count.Clear();
 
+                for (int j = 0; j < F; j++)
+                {
+                    inputs = Console.ReadLine().Split(' ');
+
+                    if (!friends.ContainsKey(inputs[0]))
+                    {
+                        friends.Add(inputs[0], inputs[0]);
+                        friends_count.Add(inputs[0], 1);
+                    }
+                    if (!friends.ContainsKey(inputs[1]))
+                    {
+                        friends.Add(inputs[1], inputs[1]);
+                        friends_count.Add(inputs[1], 1);
+                    }
+
+                    Union(inputs[0], inputs[1]);
+                    sb.Append($"{friends_count[Find(inputs[0])]} \n");
+                }
             }
+
+            Console.Write( sb.ToString() );
+            Console.ReadKey();
         }
     }
 }

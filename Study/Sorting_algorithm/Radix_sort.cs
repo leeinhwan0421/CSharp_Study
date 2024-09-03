@@ -6,54 +6,65 @@ using System.Threading.Tasks;
 
 namespace Study.Sorting_algorithm
 {
-    /*
-     * 
-     *  [기수 정렬]
-     *  대상에서 가장 크거나 작은 데이터를 찾아가 선택을 반복하면서 정렬하는 방식
-     *  시간 복잡도 O(Kn)
-     *  k = 데이터의 자릿수
-     * 
-     *  [설명]
-     *  위 코드에서는 기수 정렬 대신 계수 정렬이라는 방식을 사용했습니다.
-     *  계수 정렬 방식은 기수 정렬보다 훨씬 간단한 로직을 가지고 있어 많이 사용됩니다.
-     */
-
-
     internal class Radix_sort
     {
         static public void Sort()
         {
-            int[] arr = { 1, 3, 2, 5, 9, 7, 8, 6, 4 };
+            int n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("정렬 이전 값");
-            for (int i = 0; i < arr.Length; i++)
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++)
             {
-                Console.Write($"{arr[i]} ");
+                arr[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine();
 
-            Console.WriteLine("정렬 이후 값");
             Radix(arr);
 
-            Console.WriteLine();
-            Console.ReadKey();
+            foreach (int it in arr)
+            {
+                Console.WriteLine(it);
+            }
+
+            Console.ReadLine();
         }
 
         static private void Radix(int[] arr)
         {
-            int[] count = new int[arr.Max() + 1];
+            int max = arr.Max();
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int exp = 1; max / exp > 0; exp *= 10)
             {
-                count[arr[i]]++;
+                CountingSort(arr, exp);
+            }
+        }
+
+        static private void CountingSort(int[] arr, int exp)
+        {
+            int n = arr.Length;
+            int[] output = new int[n];
+            int[] count = new int[10];
+
+            for (int i = 0; i < n; i++)
+            {
+                int digit = (arr[i] / exp) % 10;
+                count[digit]++;
             }
 
-            for (int i = 0; i < count.Length; i++)
+            for (int i = 1; i < 10; i++)
             {
-                if (count[i] != 0)
-                {
-                    Console.Write($"{i} ");
-                }
+                count[i] += count[i - 1];
+            }
+
+            for (int i = n - 1; i >= 0; i--)
+            {
+                int digit = (arr[i] / exp) % 10;
+                output[count[digit] - 1] = arr[i];
+                count[digit]--;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] = output[i];
             }
         }
     }
