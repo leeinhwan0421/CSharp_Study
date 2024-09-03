@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>게시\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -81,6 +81,7 @@
     <Compile Include="BaekJoon\10001~20000\Problem10844Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11051Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11399Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11657Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11659Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12865Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem14002Solver.cs" />

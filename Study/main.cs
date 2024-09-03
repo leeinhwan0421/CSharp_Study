@@ -15,10 +15,10 @@ namespace Study
         static void Main(string[] args)
         {
             // 백준 코드에 알맞은 Solve() 함수를 넣으면 됩니다.
-            // Problem4195Solver.Solve();
+            Problem11657Solver.Solve();
 
             // Sort 집어넣기
-            Count_sort.Sort();
+            // Count_sort.Sort();
 
             // Notepad
             // Notepad.Notepad.Run();
