@@ -51,6 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaekJoon\0~10000\Problem2003Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1197Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1414Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1389Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1219Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1264Solver.cs" />
@@ -146,6 +149,7 @@
     <Compile Include="BaekJoon\10001~20000\Problem15654Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem15652Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem15829Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem17472Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem18352Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem18111Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem18110Solver.cs" />
