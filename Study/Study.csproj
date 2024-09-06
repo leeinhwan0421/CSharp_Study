@@ -49,6 +49,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaekJoon\0~10000\Problem2003Solver.cs" />
@@ -162,7 +163,9 @@
     <Compile Include="BaekJoon\10001~20000\Problem10986Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11660Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12789Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem23046Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem27889Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem25682Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31669Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31668Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem21568Solver.cs" />
@@ -183,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Notepad\Notepad.txt" />
