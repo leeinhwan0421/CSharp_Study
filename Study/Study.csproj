@@ -80,6 +80,7 @@
     <Compile Include="BaekJoon\0~10000\Problem2565Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2579Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2667Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2805Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2750Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem4195Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem9251Solver.cs" />
