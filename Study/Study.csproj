@@ -71,6 +71,8 @@
     <Compile Include="BaekJoon\0~10000\Problem1929Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1931Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1920Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2960Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2110Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2164Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1874Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1948Solver.cs" />
@@ -82,6 +84,7 @@
     <Compile Include="BaekJoon\0~10000\Problem2667Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2805Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2750Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem4355Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem4195Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem9251Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem9465Solver.cs" />
@@ -92,6 +95,7 @@
     <Compile Include="BaekJoon\10001~20000\Problem11399Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11657Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11659Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem13926Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12865Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem14002Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12015Solver.cs" />
@@ -101,6 +105,7 @@
     <Compile Include="BaekJoon\10001~20000\Problem11053Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11725Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem14889Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem15965Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem16953Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1629Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2252Solver.cs" />
