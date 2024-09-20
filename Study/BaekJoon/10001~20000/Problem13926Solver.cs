@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace Study.BaekJoon
 {
@@ -8,34 +9,21 @@ namespace Study.BaekJoon
 
     internal class Problem13926Solver
     {
-        static long Power(long x, long y, long p)
+        static BigInteger Power(BigInteger x, BigInteger y, BigInteger p)
         {
-            long res = 1;
-            x %= p;
-
-            while (y != 0)
-            {
-                if ((y & 1) == 1)
-                    res = (res * x) % p;
-                y >>= 1;
-                x = (x * x) % p;
-            }
-
-            return res;
+            return BigInteger.ModPow(x, y, p);
         }
 
-        static bool MillerRabinTest(long d, long n)
+        static bool MillerRabinTest(BigInteger d, BigInteger n, BigInteger a)
         {
-            Random rand = new Random();
-            long a = 2 + (long)(rand.NextDouble() * (n - 4));
-            long x = Power(a, d, n);
+            BigInteger x = Power(a, d, n);
 
             if (x == 1 || x == n - 1)
                 return true;
 
             while (d != n - 1)
             {
-                x = Power(x, 2, n);
+                x = (x * x) % n;
                 d <<= 1;
 
                 if (x == 1)
@@ -47,112 +35,92 @@ namespace Study.BaekJoon
             return false;
         }
 
-        static bool PrimeCheck(long n, int k)
+        static bool PrimeCheck(BigInteger n)
         {
-            if (n == 1)
+            if (n == 2 || n == 3)
+                return true;
+            if (n < 2 || n % 2 == 0)
                 return false;
 
-            long[] basePrimes = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 };
-            foreach (long i in basePrimes)
-            {
-                if (n == i)
-                    return true;
-                if (n % i == 0)
-                    return false;
-            }
+            // Deterministic bases for n < 10^18
+            BigInteger[] bases = { 2, 3, 5, 7, 11 };
 
-            long d = n - 1;
+            BigInteger d = n - 1;
             while ((d & 1) == 0)
                 d >>= 1;
 
-            for (int i = 0; i < k; i++)
+            foreach (var a in bases)
             {
-                if (!MillerRabinTest(d, n))
+                if (a >= n)
+                    continue;
+                if (!MillerRabinTest(d, n, a))
                     return false;
             }
 
             return true;
         }
 
-        static long Gcd(long a, long b)
+        static BigInteger Gcd(BigInteger a, BigInteger b)
         {
             return b == 0 ? a : Gcd(b, a % b);
         }
 
-        static long PollardRho(long n, int k)
+        static BigInteger PollardRho(BigInteger n)
         {
-            if (n == 1)
-                return n;
-            if ((n & 1) == 0)
+            if (n % 2 == 0)
                 return 2;
+            if (n % 3 == 0)
+                return 3;
 
-            Random rand = new Random();
-            long x = 2 + (long)(rand.NextDouble() * (n - 4));
-            long y = x;
-            long c = 1 + (long)(rand.NextDouble() * (n - 2));
-            long d = 1;
+            BigInteger x = 2, y = 2, c = 1, d = 1;
 
             while (d == 1)
             {
-                x = (Power(x, 2, n) + c) % n;
-                y = (Power(y, 2, n) + c) % n;
-                y = (Power(y, 2, n) + c) % n;
-                d = Gcd(Math.Abs(x - y), n);
+                x = (x * x + c) % n;
+                y = (y * y + c) % n;
+                y = (y * y + c) % n;
+                d = Gcd(BigInteger.Abs(x - y), n);
 
                 if (d == n)
                 {
-                    x = 2 + (long)(rand.NextDouble() * (n - 4));
-                    y = x;
-                    c = 1 + (long)(rand.NextDouble() * (n - 2));
+                    c++;
+                    x = 2;
+                    y = 2;
                     d = 1;
                 }
             }
 
-            return PrimeCheck(d, k) ? d : PollardRho(d, k);
+            return d;
         }
 
-        static List<long> CalcFactors(long n, int k)
+        static void Factorize(BigInteger n, HashSet<BigInteger> factors)
         {
-            List<long> res = new List<long>();
+            if (n == 1)
+                return;
 
-            if (n % 2 == 0)
+            if (PrimeCheck(n))
             {
-                res.Add(2);
-                while (n % 2 == 0)
-                    n >>= 1;
+                factors.Add(n);
+                return;
             }
 
-            while (n != 1)
-            {
-                if (PrimeCheck(n, k))
-                {
-                    res.Add(n);
-                    break;
-                }
-
-                long factor = PollardRho(n, k);
-
-                res.Add(factor);
-
-                while (n % factor == 0)
-                    n /= factor;
-            }
-
-            return res;
+            BigInteger d = PollardRho(n);
+            Factorize(d, factors);
+            Factorize(n / d, factors);
         }
 
-        static long EulerPhi(long n, int k)
+        static BigInteger EulerPhi(BigInteger n)
         {
             if (n == 1)
                 return 1;
-            if (PrimeCheck(n, k))
-                return n - 1;
 
-            List<long> factors = CalcFactors(n, k);
-            long res = n;
-            foreach (long f in factors)
+            HashSet<BigInteger> factors = new HashSet<BigInteger>();
+            Factorize(n, factors);
+
+            BigInteger res = n;
+            foreach (BigInteger p in factors)
             {
-                res -= (res / f);
+                res -= res / p;
             }
 
             return res;
@@ -160,10 +128,9 @@ namespace Study.BaekJoon
 
         static public void Solve()
         {
-            long n = long.Parse(Console.ReadLine());
-            int k = 10;
+            BigInteger n = BigInteger.Parse(Console.ReadLine());
 
-            Console.WriteLine(EulerPhi(n, k));
+            Console.Write(EulerPhi(n));
             Console.ReadKey();
         }
     }
