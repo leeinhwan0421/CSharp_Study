@@ -53,11 +53,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaekJoon\0~10000\Problem1068Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem1328Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1915Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1947Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1256Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1722Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2098Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2193Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2342Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2407Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1780Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2003Solver.cs" />
@@ -80,6 +83,7 @@
     <Compile Include="BaekJoon\0~10000\Problem1931Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1920Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem9252Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem11049Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11437Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11438Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11505Solver.cs" />
