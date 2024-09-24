@@ -52,6 +52,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaekJoon\0~10000\Problem1647Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem2162Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1068Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1328Solver.cs" />
@@ -84,7 +85,9 @@
     <Compile Include="BaekJoon\0~10000\Problem1929Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1931Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem1920Solver.cs" />
+    <Compile Include="BaekJoon\0~10000\Problem2467Solver.cs" />
     <Compile Include="BaekJoon\0~10000\Problem9252Solver.cs" />
+    <Compile Include="BaekJoon\10001~20000\Problem10942Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11049Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11437Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11438Solver.cs" />
