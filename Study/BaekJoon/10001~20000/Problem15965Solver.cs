@@ -33,7 +33,7 @@ namespace Study.BaekJoon
                 if (cnt == K)
                 {
                     Console.Write(i);
-                    Console.ReadKey();
+                    
                     return;
                 }
 

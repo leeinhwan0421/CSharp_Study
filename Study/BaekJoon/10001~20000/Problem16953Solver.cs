@@ -23,7 +23,7 @@ namespace Study.BaekJoon
 
             AtoB();
 
-            Console.ReadKey();
+            
         }
 
         static public void AtoB()

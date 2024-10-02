@@ -56,7 +56,7 @@ namespace Study.BaekJoon
 
             Console.WriteLine(count);
 
-            Console.ReadKey();
+            
         }
 
         static int Find(int x)

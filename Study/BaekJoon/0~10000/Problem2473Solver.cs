@@ -51,7 +51,7 @@ namespace Study.BaekJoon
 
             Array.Sort(result);
             Console.Write($"{result[0]} {result[1]} {result[2]}");
-            Console.ReadKey();
+            
         }
     }
 }

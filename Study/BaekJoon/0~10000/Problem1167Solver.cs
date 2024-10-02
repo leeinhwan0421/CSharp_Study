@@ -64,7 +64,7 @@ namespace Study.BaekJoon
             Array.Sort(distance);
 
             Console.Write(distance[N]);
-            Console.ReadKey();
+            
         }
 
         static public void BFS(int node)

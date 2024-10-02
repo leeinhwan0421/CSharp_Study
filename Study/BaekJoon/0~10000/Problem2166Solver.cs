@@ -37,7 +37,7 @@ namespace Study.BaekJoon
             double area = Math.Abs(sum1 - sum2) / 2.0;
 
             Console.WriteLine($"{area:F1}");
-            Console.ReadKey();
+            
         }
     }
 }

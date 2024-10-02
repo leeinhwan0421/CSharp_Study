@@ -24,7 +24,7 @@ namespace Study.BaekJoon
             int c = (W + M) / (M + 1);
 
             Console.Write(r * c);
-            Console.ReadKey();
+            
         }
     }
 }

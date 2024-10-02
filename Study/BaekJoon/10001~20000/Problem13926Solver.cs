@@ -131,7 +131,7 @@ namespace Study.BaekJoon
             BigInteger n = BigInteger.Parse(Console.ReadLine());
 
             Console.Write(EulerPhi(n));
-            Console.ReadKey();
+            
         }
     }
 }

@@ -44,7 +44,7 @@ namespace Study.BaekJoon
             }
 
             Console.WriteLine($"{(arrive ? 1 : 0)}");
-            Console.ReadKey();
+            
         }
 
         static public void DFS(int nw, int depth)

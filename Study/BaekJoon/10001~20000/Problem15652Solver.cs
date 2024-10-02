@@ -24,7 +24,7 @@ namespace Study.BaekJoon
 
             DFS(n, m, 0, 1);
 
-            Console.ReadKey();
+            
         }
 
         static void DFS(int n, int m, int depth, int at)

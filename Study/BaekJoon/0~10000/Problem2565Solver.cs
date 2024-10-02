@@ -36,7 +36,7 @@ namespace Study.BaekJoon
             }
 
             Console.WriteLine(n - dp.Max());
-            Console.ReadKey();
+            
         }
     }
 }

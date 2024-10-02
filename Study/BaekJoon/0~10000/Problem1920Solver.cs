@@ -39,7 +39,7 @@ namespace Study.BaekJoon
             }
 
             Console.Write(sb.ToString());
-            Console.ReadKey();
+            
         }
 
         static public void BinarySearch(int n)

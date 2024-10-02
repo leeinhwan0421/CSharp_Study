@@ -113,7 +113,7 @@ namespace Study.BaekJoon
                 Console.Write($"{LCA(s, e)}\n");
             }
 
-            Console.ReadKey();
+            
         }
     }
 }

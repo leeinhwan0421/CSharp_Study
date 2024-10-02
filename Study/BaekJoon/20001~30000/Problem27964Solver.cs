@@ -31,7 +31,7 @@ namespace Study.BaekJoon
             }
 
             Console.Write($"{(result >= 4 ? "yummy" : "sad")}");
-            Console.ReadKey();
+            
         }
     }
 }

@@ -41,13 +41,13 @@ namespace Study.BaekJoon
                 if (sum < arrA[i])
                 {
                     Console.Write("-1");
-                    Console.ReadKey();
+                    
                     return;
                 }
             }
 
             Console.Write($"{(sum - arrA[N - 1]) / X}");
-            Console.ReadKey();
+            
         }
     }
 }

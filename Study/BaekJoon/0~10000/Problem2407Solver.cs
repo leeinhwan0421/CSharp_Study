@@ -39,7 +39,7 @@ namespace Study.BaekJoon
             BigInteger result = Factorial(N) / (Factorial(M) * Factorial(N - M));
 
             Console.WriteLine(result);
-            Console.ReadKey();
+            
         }
     }
 }

@@ -56,7 +56,7 @@ namespace Study.BaekJoon
                 Console.Write("-1");
             }
 
-            Console.ReadKey();
+            
         }
 
         static int BFS(Queue<Tuple<int, int>> queue)

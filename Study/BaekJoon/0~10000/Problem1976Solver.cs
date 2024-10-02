@@ -75,7 +75,7 @@ namespace Study.BaekJoon
                 Console.Write("YES");
             }
 
-            Console.ReadKey();
+            
         }
 
         static public void Union(int a, int b)

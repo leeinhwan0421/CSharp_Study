@@ -56,7 +56,7 @@ namespace Study.BaekJoon
             }
 
             Console.WriteLine(minMultiplications[1, matrixCount]);
-            Console.ReadKey();
+            
         }
     }
 }

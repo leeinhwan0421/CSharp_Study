@@ -148,7 +148,7 @@ namespace Study.BaekJoon
             result += _1;
 
             Console.Write(result);
-            Console.ReadKey();
+            
         }
     }
 }

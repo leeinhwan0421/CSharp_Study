@@ -140,7 +140,7 @@ namespace Study.BaekJoon
             sw.Close();
             sr.Close();
 
-            Console.ReadKey();
+            
         }
     }
 }

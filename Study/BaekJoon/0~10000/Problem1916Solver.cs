@@ -59,7 +59,7 @@ namespace Study.BaekJoon
             int result = Dijkstra(start_idx, end_idx);
 
             Console.Write(result);
-            Console.ReadKey();
+            
         }
 
         static public int Dijkstra(int start, int end)

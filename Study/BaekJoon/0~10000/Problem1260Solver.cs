@@ -47,7 +47,7 @@ namespace Study.BaekJoon
             visit = new bool[N + 1];
             BFS(V);
 
-            Console.ReadKey();
+            
         }
 
         static public void DFS(int v)

@@ -57,7 +57,7 @@ namespace Study.BaekJoon
                 Console.Write($"{D[i] / mgcd} ");
             }
 
-            Console.ReadKey();
+            
         }
 
         static public long GCD(long a, long b)

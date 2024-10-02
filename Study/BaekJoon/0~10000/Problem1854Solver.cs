@@ -146,7 +146,7 @@ namespace Study.BaekJoon
 
             sw.Flush();
 
-            Console.ReadKey();
+            
         }
     }
 }

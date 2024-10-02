@@ -72,7 +72,7 @@ namespace Study.BaekJoon
                 Console.Write($"{result[i] + selfBuild[i]}\n");
             }
 
-            Console.ReadKey();
+            
         }
     }
 }

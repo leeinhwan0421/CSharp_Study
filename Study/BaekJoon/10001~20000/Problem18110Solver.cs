@@ -36,7 +36,7 @@ namespace Study.BaekJoon
             double a = (double)sum / (n - (banned * 2));
 
             Console.Write(Math.Round(a, MidpointRounding.AwayFromZero));
-            Console.ReadKey();
+            
         }
     }
 }

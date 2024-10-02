@@ -114,7 +114,7 @@ namespace Study.BaekJoon
 
             Console.WriteLine(useEdge == sNum - 2 ? result.ToString() : "-1");
 
-            Console.ReadKey();
+            
         }
 
         static public void Union(int a, int b)

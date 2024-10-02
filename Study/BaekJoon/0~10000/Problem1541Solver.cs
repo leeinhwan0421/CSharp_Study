@@ -23,7 +23,7 @@ namespace Study.BaekJoon
             }
 
             Console.Write(sum);
-            Console.ReadKey();
+            
         }
 
         static public int Plus(string n) 

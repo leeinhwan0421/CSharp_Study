@@ -55,7 +55,7 @@ namespace Study.BaekJoon
                 Console.Write(ans);
             }
 
-            Console.ReadKey();
+            
         }
 
         static public void DFS(int x)

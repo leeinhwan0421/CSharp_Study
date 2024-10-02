@@ -44,13 +44,13 @@ namespace Study.BaekJoon
                 if (canEscape)
                 {
                     Console.WriteLine(j + 1);
-                    Console.ReadKey();
+                    
                     return;
                 }
             }
 
             Console.WriteLine("ESCAPE FAILED");
-            Console.ReadKey();
+            
 
         }
     }

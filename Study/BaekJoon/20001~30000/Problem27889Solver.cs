@@ -33,7 +33,7 @@ namespace Study.BaekJoon
             else
                 Console.Write("St. Johnsbury Academy");
 
-            Console.ReadKey();
+            
         }
     }
 }

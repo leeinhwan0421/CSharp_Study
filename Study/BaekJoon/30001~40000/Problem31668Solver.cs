@@ -17,7 +17,7 @@ namespace Study.BaekJoon
             int K = int.Parse(Console.ReadLine());
 
             Console.Write(M / N * K);
-            Console.ReadKey();
+            
         }
     }
 }

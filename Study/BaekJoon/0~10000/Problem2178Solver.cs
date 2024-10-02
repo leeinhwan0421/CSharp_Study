@@ -40,7 +40,7 @@ namespace Study.BaekJoon
 
             BFS(0, 0);
             Console.Write(a[N - 1, M - 1]);
-            Console.ReadKey();
+            
         }
 
         static public void BFS(int i, int j)

@@ -107,7 +107,7 @@ namespace Study.BaekJoon
             }
 
             Console.Write($"{result[end]}\n{resultCnt}");
-            Console.ReadKey();
+            
         }
     }
 }

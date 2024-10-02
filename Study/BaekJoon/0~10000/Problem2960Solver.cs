@@ -42,7 +42,7 @@ namespace Study.BaekJoon
                     {
                         Console.Write(j);
 
-                        Console.ReadKey();
+                        
 
                         return;
                     }

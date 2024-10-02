@@ -52,7 +52,7 @@ namespace Study.BaekJoon
             }
 
             Console.Write(max);
-            Console.ReadKey();
+            
         }
     }
 }

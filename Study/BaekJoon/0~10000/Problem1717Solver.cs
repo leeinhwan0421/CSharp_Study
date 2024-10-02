@@ -70,7 +70,7 @@ namespace Study.BaekJoon
                 }
             }
 
-            Console.ReadKey();
+            
         }
     }
 }

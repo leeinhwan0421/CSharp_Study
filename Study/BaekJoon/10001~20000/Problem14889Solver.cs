@@ -36,7 +36,7 @@ namespace Study.BaekJoon
 
             Console.Write(result);
 
-            Console.ReadKey();
+            
         }
 
         static void DFS(int x, int ps)

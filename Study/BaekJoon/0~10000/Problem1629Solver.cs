@@ -24,7 +24,7 @@ namespace Study.BaekJoon
             C = long.Parse(inputs[2]);
 
             Console.Write(multi(B));
-            Console.ReadKey();
+            
         }
 
         static long multi(long y)

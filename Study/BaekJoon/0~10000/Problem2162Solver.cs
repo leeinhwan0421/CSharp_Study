@@ -115,7 +115,7 @@ namespace Study.BaekJoon
 
             Console.Write($"{groupCount}\n");
             Console.Write($"{maxGroupSize}");
-            Console.ReadKey();
+            
         }
     }
 }

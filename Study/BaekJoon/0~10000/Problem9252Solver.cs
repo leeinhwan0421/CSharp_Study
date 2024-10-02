@@ -66,7 +66,7 @@ namespace Study.BaekJoon
                 Console.Write($"\n{new string(sb.ToString().ToCharArray().Reverse().ToArray())}");
             }
 
-            Console.ReadKey();
+            
         }
     }
 }

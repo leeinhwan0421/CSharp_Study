@@ -57,7 +57,7 @@ namespace Study.BaekJoon
                 Console.Write($"{answer[i]}\n");
             }
 
-            Console.ReadKey();
+            
         }
 
         static public int BFS(int x, int y)

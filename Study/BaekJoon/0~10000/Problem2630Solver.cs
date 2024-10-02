@@ -37,7 +37,7 @@ namespace Study.BaekJoon
             Console.Write($"{white}\n");
             Console.Write($"{blue}\n");
 
-            Console.ReadKey();
+            
         }
 
         static public void checkSlash(int x, int y, int N)

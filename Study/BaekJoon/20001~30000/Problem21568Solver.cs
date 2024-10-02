@@ -25,14 +25,14 @@ namespace Study.BaekJoon
             if (c % tgcd != 0)
             {
                 Console.Write("-1");
-                Console.ReadKey();
+                
                 return;
             }
 
             int result = (int)(c / tgcd);
             var ret = Execute_Solve(a, b);
             Console.Write($"{ret[0] * result} {ret[1] * result}");
-            Console.ReadKey();
+            
         }
         
         static public long[] Execute_Solve(long a, long b)

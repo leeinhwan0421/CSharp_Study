@@ -27,7 +27,7 @@ namespace Study.BaekJoon
             int N = int.Parse(Console.ReadLine());
 
             Console.Write(D[N]);
-            Console.ReadKey();
+            
         }
     }
 }

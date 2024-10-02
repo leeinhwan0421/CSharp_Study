@@ -39,7 +39,7 @@ namespace Study.BaekJoon
             DFS(7, 1);
 
             sw.Flush();
-            Console.ReadKey();
+            
         }
 
         static public void DFS(int num, int digit)

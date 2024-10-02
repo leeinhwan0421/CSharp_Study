@@ -66,7 +66,7 @@ namespace Study.BaekJoon
             sr.Close();
             sw.Close();
 
-            Console.ReadKey();
+            
         }
     }
 }

@@ -75,7 +75,7 @@ namespace Study.BaekJoon
             }
 
             Console.Write($"{minTime} {maxHeightResult}");
-            Console.ReadKey();
+            
         }
     }
 }

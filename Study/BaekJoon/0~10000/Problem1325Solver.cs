@@ -58,7 +58,7 @@ namespace Study.BaekJoon
                     Console.Write($"{i} ");
             }
 
-            Console.ReadKey();
+            
         }
 
         static private void BFS(int node)

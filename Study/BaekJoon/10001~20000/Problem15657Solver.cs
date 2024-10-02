@@ -35,7 +35,7 @@ namespace Study.BaekJoon
 
             Console.Write(sb.ToString());
 
-            Console.ReadKey();
+            
         }
 
         static void BT(int x, int len, int n, int m)

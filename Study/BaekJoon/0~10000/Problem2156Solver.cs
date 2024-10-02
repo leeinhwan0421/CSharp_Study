@@ -39,7 +39,7 @@ namespace Study.BaekJoon
 
             Console.Write(dp[dp.Count - 1]);
 
-            Console.ReadKey();
+            
         }
     }
 }

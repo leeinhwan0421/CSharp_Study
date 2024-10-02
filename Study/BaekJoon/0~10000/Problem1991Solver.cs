@@ -100,7 +100,7 @@ namespace Study.BaekJoon
             Console.WriteLine();
             tree.Postorder();
 
-            Console.ReadKey();
+            
         }
     }
 }
