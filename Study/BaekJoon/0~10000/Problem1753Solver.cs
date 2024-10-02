@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Study.BaekJoon
 {
+    // https://www.acmicpc.net/problem/1747
+    // 최단경로
+
     internal class Problem1753Solver
     {
         static public void Solve()

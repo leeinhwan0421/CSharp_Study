@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Study.BaekJoon
 {
+    // https://www.acmicpc.net/problem/1697
+    // 숨바꼭질
+
     internal class Problem1697Solver
     {
         static int max = 100001;

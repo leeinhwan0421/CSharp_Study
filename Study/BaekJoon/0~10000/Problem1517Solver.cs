@@ -28,6 +28,7 @@ namespace Study.BaekJoon
 
             MergeSortRecursive(a, 0, a.Length - 1);
             Console.Write(cnt);
+            Console.ReadKey();
         }
 
         private static void MergeSortRecursive(int[] arr, int left, int right)
