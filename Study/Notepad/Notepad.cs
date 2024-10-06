@@ -17,6 +17,7 @@ namespace Study.Notepad
     {
         static public void Run()
         {
+
         }
     }
 }
