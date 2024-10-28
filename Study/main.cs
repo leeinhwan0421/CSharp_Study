@@ -15,7 +15,7 @@ namespace Study
         static void Main(string[] args)
         {
             // 백준 코드에 알맞은 Solve() 함수를 넣으면 됩니다.
-            Problem16435Solver.Solve();
+            Problem2204Solver.Solve();
 
             // Sort 집어넣기
             // Count_sort.Sort();
