@@ -219,6 +219,7 @@
     <Compile Include="BaekJoon\20001~30000\Problem25682Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem30445Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31429Solver.cs" />
+    <Compile Include="BaekJoon\30001~40000\Problem31831Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31669Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31668Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem21568Solver.cs" />
