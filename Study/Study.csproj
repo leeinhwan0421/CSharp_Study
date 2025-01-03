@@ -231,6 +231,12 @@
     <Compile Include="BaekJoon\20001~30000\Problem28278Solver.cs" />
     <Compile Include="main.cs" />
     <Compile Include="Notepad\Notepad.cs" />
+    <Compile Include="Programmers\Lessons181949Solver.cs" />
+    <Compile Include="Programmers\Lessons181950Solver.cs" />
+    <Compile Include="Programmers\Lessons181951Solver.cs" />
+    <Compile Include="Programmers\Lessons178871Solver.cs" />
+    <Compile Include="Programmers\Lessons181952Solver.cs" />
+    <Compile Include="Programmers\Lessons340213Solver.cs" />
     <Compile Include="Sorting_algorithm\Merge_sort.cs" />
     <Compile Include="Sorting_algorithm\Quick_sort.cs" />
     <Compile Include="Sorting_algorithm\Insertion_sort.cs" />
