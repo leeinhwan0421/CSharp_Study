@@ -4,10 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Study.BaekJoon;
-using Study.Sorting_algorithm;
-using Study.Notepad;
-
 namespace Study
 {
     internal class Program
@@ -15,14 +11,18 @@ namespace Study
         static void Main(string[] args)
         {
             // 백준 코드에 알맞은 Solve() 함수를 넣으면 됩니다.
-            Problem1297Solver.Solve();
+            BaekJoon.Problem1297Solver.Solve();
+
+            // 프로그래머스 코드에 알맞은 solution() 함수를 넣으면 됩니다.
+            // Programmers.Lessons340213Solver problem = new Programmers.Lessons340213Solver();
+            // problem.solution(Param);
 
             // Sort 집어넣기
-            // Count_sort.Sort();
+            // Sorting_algorithm.Count_sort.Sort();
 
             // Notepad
             // Notepad.Notepad.Run();
-        
+
             Console.ReadKey();
         }
     }
