@@ -11,7 +11,7 @@ namespace Study
         static void Main(string[] args)
         {
             // 백준 코드에 알맞은 Solve() 함수를 넣으면 됩니다.
-            BaekJoon.Problem8979Solver.Solve();
+            BaekJoon.Problem15814Solver.Solve();
 
             // 프로그래머스 코드에 알맞은 solution() 함수를 넣으면 됩니다.
             // Programmers.Lessons340213Solver problem = new Programmers.Lessons340213Solver();
