@@ -212,6 +212,7 @@
     <Compile Include="BaekJoon\10001~20000\Problem10986Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem11660Solver.cs" />
     <Compile Include="BaekJoon\10001~20000\Problem12789Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem24090Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem24049Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem20944Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem23971Solver.cs" />
@@ -220,6 +221,7 @@
     <Compile Include="BaekJoon\20001~30000\Problem27964Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem27889Solver.cs" />
     <Compile Include="BaekJoon\20001~30000\Problem25682Solver.cs" />
+    <Compile Include="BaekJoon\20001~30000\Problem29738Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem30445Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31429Solver.cs" />
     <Compile Include="BaekJoon\30001~40000\Problem31831Solver.cs" />
